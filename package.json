@@ -1,0 +1,23 @@
+{
+  "name": "money-empire",
+  "version": "1.1.0",
+  "private": true,
+  "description": "إمبراطورية المال - لعبة إدارة اقتصادية عربية",
+  "scripts": {
+    "start": "vite --root www --host 0.0.0.0",
+    "dev": "vite --root www --host 0.0.0.0",
+    "build": "vite build --root www --outDir ../dist",
+    "android:add": "cap add android",
+    "android:sync": "npm run build && cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "firebase": "^11.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "vite": "^6.3.5"
+  }
+}

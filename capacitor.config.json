@@ -1,0 +1,9 @@
+{
+  "appId": "com.moneyempire.game",
+  "appName": "إمبراطورية المال",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "android": {
+    "backgroundColor": "#080b12"
+  }
+}
