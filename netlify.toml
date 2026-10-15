@@ -11,5 +11,3 @@ Cache-Control = "no-cache"
 for = "/*.html"
 [headers.values]
 Cache-Control = "public, max-age=0, must-revalidate"
-    
-c, max-age=0, must-revalidate"
